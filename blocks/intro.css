@@ -1,0 +1,39 @@
+.intro {
+  margin: 92px auto 0;
+  width: 1017px;
+  height: 516px;
+  border: 5px dashed blue;
+}
+
+.intro__title {
+  margin: 0;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+}
+
+.intro__description {
+  max-width: 722px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.intro__cite {
+  width: 720px;
+  /* margin-bottom: 42px; */
+  font-size: 24px;
+  font-style: normal;
+  line-height: 34px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.intro__paragraph {
+  width: 720px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}

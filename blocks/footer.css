@@ -1,0 +1,10 @@
+.footer {
+  margin: 0 auto;
+  padding: 0 0 46px;
+  width: 191px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  border: 5px dashed blue;
+}

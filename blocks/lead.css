@@ -14,8 +14,15 @@
   height: 70px;
 }
 
+.lead {
+  margin: 0 auto;
+  width: 984px;
+  height: 983px;
+  border: 5px dashed red;
+}
+
 .header__title {
-  margin: 90px auto 32px;
+  margin: 35px auto 25px;
   max-width: 790px;
   font-size: 96px;
   font-weight: 900;
@@ -33,7 +40,7 @@
 }
 
 .header__image {
-  width: 980px;
+  width: 977px;
   height: 615px;
   filter: grayscale(1);
 }
