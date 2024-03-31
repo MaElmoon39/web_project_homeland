@@ -2,5 +2,79 @@
   margin: 92px auto 0;
   width: 987px;
   height: 4098px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   border: 5px dashed violet;
+}
+
+.places__frame {
+  width: 984px;
+  height: 756px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.places__title {
+  margin: 0;
+  height: 152px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+}
+
+.places__artist {
+  margin: 0;
+  height: 152px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.places__artist-title {
+  font-size: 12px;
+  line-height: 14.5px;
+  color: #aaa;
+}
+
+.places__artist-name {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.places__image {
+  width: 460px;
+  height: 460px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.places__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.places__content {
+  margin: 0 0 25px;
+}
+
+.places__content:last-of-type {
+  margin-bottom: 0;
+}
+
+.places__buyBtn {
+  margin: 48px 0 0;
+  padding: 13px 20px;
+  width: 355px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #0278fe;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #fff;
 }
