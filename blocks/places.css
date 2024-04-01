@@ -12,7 +12,7 @@
   width: 984px;
   height: 756px;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 460px 1fr;
   grid-template-rows: repeat(2, 1fr);
   gap: 48px 40px;
   margin-bottom: 80px;
@@ -44,11 +44,12 @@
 }
 
 .places__title_berea_title {
-  width: 538px;
+  width: 600px;
   height: 152px;
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
+  gap: 17px 40px;
 }
 
 .places__artist {

@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 725px;
+    height: 850px;
+  }
+
+  .header__title {
+    max-width: 720px;
+  }
+
+  .header__image {
+    width: 768px;
+    height: 480px;
+  }
+
+  .intro {
+    width: 720px;
+    height: 607px;
+  }
+
+  .photo-grid {
+    width: 720px;
+    height: 1104px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .photo-grid__item {
+    width: 352px;
+    height: 264px;
+  }
+
+  .places,
+  .places__frame {
+    width: 720px;
+    grid-template-columns: 340px 1fr;
+  }
+
+  .places__title {
+    width: 340px;
+    height: 46px;
+  }
+
+  .places__image {
+    width: 340px;
+    height: 340px;
+  }
+
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .cover {
+    width: 768px;
+  }
+}
