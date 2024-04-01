@@ -14,8 +14,7 @@
 
 .intro__description {
   max-width: 722px;
-  margin-top: 40px;
-  margin-bottom: 0;
+  height: 136px;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -23,12 +22,11 @@
 
 .intro__cite {
   width: 720px;
-  /* margin-bottom: 42px; */
+  margin-top: -24px;
   font-size: 24px;
   font-style: normal;
   line-height: 34px;
-  display: flex;
-  justify-content: flex-end;
+  text-align: right;
 }
 
 .intro__paragraph {

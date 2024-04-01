@@ -1,3 +1,4 @@
+/* Pantallas con ancho máximo de 720px */
 @media screen and (max-width: 768px) {
   .lead {
     width: 725px;
@@ -53,5 +54,34 @@
 
   .cover {
     width: 768px;
+  }
+}
+
+/* Pantallas con ancho máximo de 320px */
+@media screen and (max-width: 320px) {
+  .nav__logo {
+    width: 200px;
+    height: 52px;
+  }
+
+  .lead {
+    width: 288px;
+  }
+
+  .header__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .header__description {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .header__image {
+    width: 320px;
+    height: 200px;
   }
 }
