@@ -17,6 +17,10 @@
   grid-template-rows: repeat(2, 1fr);
 }
 
+.places__frame:last-of-type {
+  margin-bottom: 0;
+}
+
 .places__title {
   margin: 0;
   height: 152px;
@@ -34,6 +38,7 @@
 }
 
 .places__artist-title {
+  padding: 0 0 8px;
   font-size: 12px;
   line-height: 14.5px;
   color: #aaa;
@@ -60,6 +65,14 @@
 
 .places__content {
   margin: 0 0 25px;
+}
+
+.places__content_wide_padding {
+  margin: 0 0 56px;
+}
+
+.places__content_narrow_padding {
+  margin: 0 0 17px;
 }
 
 .places__content:last-of-type {

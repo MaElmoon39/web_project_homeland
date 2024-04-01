@@ -3,4 +3,57 @@
   width: 1184px;
   height: 740px;
   border: 5px dashed yellow;
+  background-image: url(../images/background_visits.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__overlay-text {
+  margin: 0 auto;
+  width: 656px;
+  height: 254px;
+  /* border: 3px solid rgb(16, 23, 32); */
+  border-radius: 4px;
+  z-index: 1;
+  text-align: center;
+}
+
+.cover__title {
+  margin: 0 auto 32px;
+  width: 656px;
+  height: 66px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+}
+
+.cover__subtitle {
+  margin: 0 auto 32px;
+  width: 280px;
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.cover__buyBtn {
+  margin: 0 auto;
+  padding: 13px 20px;
+  width: 200px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #0278fe;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #fff;
 }
