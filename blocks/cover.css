@@ -3,13 +3,17 @@
   width: 1184px;
   height: 740px;
   border: 5px dashed yellow;
-  background-image: url(../images/background_visits.svg);
+  background-image: url(../images/background_visits.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.cover:hover {
+  opacity: 0.8;
 }
 
 .cover__overlay-text {
@@ -56,4 +60,9 @@
   font-weight: 600;
   line-height: 22px;
   color: #fff;
+}
+
+.cover__buyBtn:hover {
+  background-color: #0063d2;
+  cursor: pointer;
 }
