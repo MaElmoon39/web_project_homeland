@@ -43,8 +43,10 @@
   margin: 64px auto 0;
   width: 977px;
   height: 615px;
-}
-
-.header__image {
+  border: 3px dashed white;
+  background-image: url(../images/kalegin-michail-179870-unsplash.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   filter: grayscale(1);
 }

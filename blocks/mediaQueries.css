@@ -1,21 +1,23 @@
 /* Pantallas con ancho máximo de 720px */
 @media screen and (max-width: 768px) {
   .lead {
-    width: 725px;
-    height: 850px;
+    width: 720px;
+    height: 400px;
   }
 
   .header__title {
     max-width: 720px;
   }
 
-  .header__image {
+  .lead-image {
+    margin-top: 69px;
     width: 768px;
     height: 480px;
   }
 
   .intro {
-    width: 720px;
+    margin: 55px auto 0;
+    max-width: 720px;
     height: 607px;
   }
 
@@ -65,10 +67,12 @@
   }
 
   .lead {
-    width: 288px;
+    max-width: 288px;
+    height: 245px;
   }
 
   .header__title {
+    margin: 50px auto 60px;
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
@@ -80,8 +84,29 @@
     line-height: 20px;
   }
 
-  .header__image {
+  .lead-image {
+    margin-top: 40px;
     width: 320px;
     height: 200px;
+  }
+
+  .intro {
+    margin: 44px auto 0;
+    max-width: 288px;
+    height: 958px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__description {
+    margin-top: 9px;
+    line-height: 30px;
+  }
+
+  .intro__cite {
+    margin: 0;
   }
 }
