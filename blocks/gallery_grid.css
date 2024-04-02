@@ -6,7 +6,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 16px;
-  border: 5px dashed greenyellow;
+  border: 3px dashed greenyellow;
 }
 
 .photo-grid__item {

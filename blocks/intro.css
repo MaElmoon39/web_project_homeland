@@ -6,15 +6,15 @@
 }
 
 .intro__title {
-  margin: 0;
+  margin: 0 0 40px;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
 }
 
 .intro__description {
+  margin: 0;
   max-width: 722px;
-  height: 136px;
   font-size: 24px;
   font-weight: 400;
   line-height: 34px;
@@ -22,7 +22,7 @@
 
 .intro__cite {
   width: 720px;
-  margin-top: -24px;
+  margin: -26px 0 0 -54px;
   font-size: 24px;
   font-style: normal;
   line-height: 34px;

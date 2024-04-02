@@ -13,7 +13,11 @@
   height: 756px;
   display: grid;
   grid-template-columns: 460px 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+  grid-template-areas:
+    "title artist artist"
+    "image text text"
+    "buyBtnn text text";
   gap: 48px 40px;
   margin-bottom: 80px;
 }
@@ -36,8 +40,9 @@
 }
 
 .places__title {
+  grid-area: title;
   margin: 0;
-  height: 152px;
+  /* height: 152px; */
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -53,6 +58,7 @@
 }
 
 .places__artist {
+  grid-area: artist;
   margin: 0;
   height: 152px;
   display: flex;
@@ -61,6 +67,7 @@
 }
 
 .places__artist-title {
+  /* grid-area: artist; */
   padding: 0 0 8px;
   font-size: 12px;
   line-height: 14.5px;
@@ -68,11 +75,13 @@
 }
 
 .places__artist-name {
+  /* grid-area: artist; */
   font-size: 18px;
   line-height: 22px;
 }
 
 .places__image {
+  grid-area: image;
   width: 460px;
   height: 460px;
   background-position: center;
@@ -81,6 +90,7 @@
 }
 
 .places__paragraph {
+  grid-area: text;
   margin: 0;
   font-size: 18px;
   line-height: 29px;
@@ -90,11 +100,11 @@
   margin: 0 0 25px;
 }
 
-.places__content_wide_padding {
+.places__content_wide_marging {
   margin: 0 0 56px;
 }
 
-.places__content_narrow_padding {
+.places__content_narrow_marging {
   margin: 0 0 17px;
 }
 
@@ -103,6 +113,7 @@
 }
 
 .places__buyBtn {
+  grid-area: buyBtnn;
   padding: 13px 20px;
   width: 355px;
   height: 48px;
