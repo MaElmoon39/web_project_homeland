@@ -1,7 +1,61 @@
+/* Pantallas con ancho entre 768px y 1184px */
+@media screen and (max-width: 1184px) {
+  .intro {
+    margin: 55px auto 0;
+    max-width: 720px;
+    height: 607px;
+  }
+
+  .photo-grid {
+    max-width: 720px;
+    height: 1104px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .photo-grid__item {
+    max-width: 352px;
+    height: 264px;
+  }
+
+  .places,
+  .places__frame {
+    max-width: 720px;
+    grid-template-columns: 340px 1fr;
+    gap: 46px 28px;
+    margin-bottom: 31px;
+  }
+
+  .places__title,
+  .places__title_berea_title {
+    max-width: 360px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .places__artist {
+    justify-content: flex-start;
+  }
+
+  .places__image {
+    max-width: 340px;
+    height: 340px;
+  }
+
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .places__buyBtn {
+    font-size: 17px;
+  }
+}
+
 /* Pantallas con ancho máximo de 768px */
 @media screen and (max-width: 768px) {
   .lead {
-    width: 720px;
+    max-width: 720px;
     height: 400px;
   }
 
@@ -11,7 +65,7 @@
 
   .lead-image {
     margin-top: 69px;
-    width: 768px;
+    max-width: 768px;
     height: 480px;
   }
 
@@ -22,20 +76,20 @@
   }
 
   .photo-grid {
-    width: 720px;
+    max-width: 720px;
     height: 1104px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
 
   .photo-grid__item {
-    width: 352px;
+    max-width: 352px;
     height: 264px;
   }
 
   .places,
   .places__frame {
-    width: 720px;
+    max-width: 720px;
     grid-template-columns: 340px 1fr;
     gap: 46px 28px;
     margin-bottom: 31px;
@@ -43,8 +97,8 @@
 
   .places__title,
   .places__title_berea_title {
-    width: 340px;
-    font-size: 42px;
+    max-width: 340px;
+    font-size: 40px;
     line-height: 46px;
   }
 
@@ -53,7 +107,7 @@
   }
 
   .places__image {
-    width: 340px;
+    max-width: 340px;
     height: 340px;
   }
 
@@ -62,15 +116,37 @@
     line-height: 26px;
   }
 
+  .places__buyBtn {
+    font-size: 17px;
+  }
+
   .cover {
-    width: 768px;
+    max-width: 768px;
+  }
+}
+
+/* Pantallas con ancho entre 320px y 720px */
+@media screen and (max-width: 720px) {
+  .photo-grid {
+    max-width: 720px;
+    height: 1104px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .photo-grid__item {
+    max-width: 280px;
+    height: 215px;
   }
 }
 
 /* Pantallas con ancho máximo de 320px */
 @media screen and (max-width: 320px) {
+  .nav {
+    padding-top: 0;
+  }
   .nav__logo {
-    width: 200px;
+    max-width: 200px;
     height: 52px;
   }
 
@@ -94,7 +170,7 @@
 
   .lead-image {
     margin-top: 40px;
-    width: 320px;
+    max-width: 320px;
     height: 200px;
   }
 
@@ -129,7 +205,7 @@
 
   .photo-grid {
     margin: 38px auto 0;
-    width: 288px;
+    max-width: 288px;
     height: 1812px;
     display: flex;
     flex-direction: column;
@@ -137,20 +213,20 @@
   }
 
   .photo-grid__item {
-    width: 288px;
+    max-width: 288px;
     height: 216px;
   }
 
   .places {
     margin: 62px auto 0;
-    width: 320px;
+    max-width: 320px;
     height: auto;
   }
 
   .places__frame,
   .places__frame_marginBttm_small,
   .places__frame_frameBurundi_big {
-    width: 320px;
+    max-width: 320px;
     height: 1200px;
     grid-template-columns: 320px;
     grid-template-areas:
@@ -165,14 +241,17 @@
 
   .places__title,
   .places__title_berea_title {
-    margin: 0 auto;
     font-size: 32px;
     line-height: 35px;
-    width: 320px;
+    max-width: 320px;
   }
 
   .places__title_berea_title {
     height: 70px;
+  }
+
+  .places__title_natal_city {
+    margin: 50px auto;
   }
 
   .places__artist {
@@ -180,7 +259,7 @@
   }
 
   .places__image {
-    width: 320px;
+    max-width: 320px;
     height: 320px;
   }
 
@@ -193,24 +272,24 @@
   }
 
   .places__buyBtn {
-    width: 288px;
+    max-width: 288px;
     font-size: 14px;
     line-height: 16px;
   }
 
   .cover {
     margin: 64px auto;
-    width: 320px;
+    max-width: 320px;
     height: 254px;
   }
 
   .cover__overlay-text {
-    width: 288px;
+    max-width: 288px;
     height: 163px;
   }
 
   .cover__title {
-    width: 288px;
+    max-width: 288px;
     height: 35px;
     font-size: 32px;
     font-weight: 900;

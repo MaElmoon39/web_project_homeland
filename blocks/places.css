@@ -1,15 +1,14 @@
 .places {
   margin: 92px auto 0;
-  width: 987px;
+  max-width: 987px;
   height: 4098px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px dashed violet;
 }
 
 .places__frame {
-  width: 984px;
+  max-width: 984px;
   height: 756px;
   display: grid;
   grid-template-columns: 460px 1fr;
@@ -49,8 +48,8 @@
 }
 
 .places__title_berea_title {
-  width: 600px;
-  height: 152px;
+  max-width: 600px;
+  /*max-height: 152px;*/
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -82,7 +81,7 @@
 
 .places__image {
   grid-area: image;
-  width: 460px;
+  max-width: 460px;
   height: 460px;
   background-position: center;
   background-size: cover;
@@ -115,7 +114,7 @@
 .places__buyBtn {
   grid-area: buyBtnn;
   padding: 13px 20px;
-  width: 355px;
+  max-width: 355px;
   height: 48px;
   border-radius: 4px;
   background-color: #0278fe;

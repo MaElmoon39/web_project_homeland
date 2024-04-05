@@ -1,8 +1,7 @@
 .cover {
   margin: 92px auto;
-  width: 1184px;
+  max-width: 1184px;
   height: 740px;
-  border: 5px dashed yellow;
   background-image: url(../images/background_visits.png);
   background-position: center;
   background-size: cover;
@@ -18,7 +17,7 @@
 
 .cover__overlay-text {
   margin: 0 auto;
-  width: 656px;
+  max-width: 656px;
   height: 254px;
   border-radius: 4px;
   z-index: 1;
@@ -27,7 +26,7 @@
 
 .cover__title {
   margin: 0 auto 32px;
-  width: 656px;
+  max-width: 656px;
   height: 66px;
   font-size: 72px;
   font-weight: 900;
@@ -36,7 +35,7 @@
 
 .cover__subtitle {
   margin: 0 auto 32px;
-  width: 280px;
+  max-width: 280px;
   height: 66px;
   display: flex;
   flex-direction: column;
@@ -51,7 +50,7 @@
 .cover__buyBtn {
   margin: 0 auto;
   padding: 13px 20px;
-  width: 200px;
+  max-width: 200px;
   height: 48px;
   border-radius: 7px;
   background-color: #0278fe;
