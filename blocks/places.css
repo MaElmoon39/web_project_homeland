@@ -41,7 +41,6 @@
 .places__title {
   grid-area: title;
   margin: 0;
-  /* height: 152px; */
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -49,8 +48,8 @@
 
 .places__title_berea_title {
   max-width: 600px;
-  /*max-height: 152px;*/
-  font-size: 72px;
+  max-height: 152px;
+  font-size: 55px;
   font-weight: 900;
   line-height: 76px;
   gap: 17px 40px;
