@@ -20,7 +20,7 @@
   height: 398px;
 }
 
-.header__title {
+.lead__title {
   margin: 90px auto 25px;
   max-width: 790px;
   font-size: 96px;
@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.header__description {
+.lead__description {
   margin: 0 auto;
   max-width: 720px;
   font-size: 30px;

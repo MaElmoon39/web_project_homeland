@@ -138,6 +138,10 @@
     max-width: 280px;
     height: 215px;
   }
+
+  .places__frame:last-of-type {
+    margin-bottom: 64px;
+  }
 }
 
 /* Pantallas con ancho máximo de 320px */
