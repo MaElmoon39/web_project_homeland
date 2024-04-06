@@ -59,7 +59,7 @@
     height: 400px;
   }
 
-  .header__title {
+  .lead__title {
     max-width: 720px;
   }
 
@@ -75,7 +75,14 @@
     height: 607px;
   }
 
+  .intro__cite {
+    position: absolute;
+    top: 1568px;
+    right: 24px;
+  }
+
   .photo-grid {
+    margin: 64px auto;
     max-width: 720px;
     height: 1104px;
     grid-template-columns: repeat(2, 1fr);
@@ -97,6 +104,7 @@
 
   .places__title,
   .places__title_berea_title {
+    margin: 0 16px;
     max-width: 340px;
     font-size: 40px;
     line-height: 46px;
@@ -128,6 +136,7 @@
 /* Pantallas con ancho entre 320px y 720px */
 @media screen and (max-width: 720px) {
   .photo-grid {
+    margin: 64px auto;
     max-width: 720px;
     height: 1104px;
     grid-template-columns: repeat(2, 1fr);
@@ -135,8 +144,9 @@
   }
 
   .photo-grid__item {
-    max-width: 280px;
-    height: 215px;
+    margin: 0 auto;
+    max-width: 352px;
+    height: 254px;
   }
 
   .places__frame:last-of-type {
@@ -156,17 +166,17 @@
 
   .lead {
     max-width: 288px;
-    height: 245px;
+    height: 188px;
   }
 
-  .header__title {
+  .lead__title {
     margin: 50px auto 60px;
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
   }
 
-  .header__description {
+  .lead__description {
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
@@ -187,6 +197,7 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
+    margin: 0 auto 9px;
   }
 
   .intro__description {
@@ -199,8 +210,9 @@
 
   .intro__cite {
     max-width: 268px;
-    margin-top: 0;
-    margin-bottom: 0;
+    position: absolute;
+    top: 1040px;
+    right: 16px;
   }
 
   .intro__paragraph {
@@ -227,7 +239,19 @@
     height: auto;
   }
 
-  .places__frame,
+  .places__frame {
+    max-width: 320px;
+    height: 1200px;
+    grid-template-columns: 320px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "text"
+      "buyBtnn";
+    gap: 0 8px;
+  }
+
   .places__frame_marginBttm_small,
   .places__frame_frameBurundi_big {
     max-width: 320px;
@@ -240,7 +264,6 @@
       "text"
       "buyBtnn";
     gap: 0 8px;
-    margin: 0 auto 16px;
   }
 
   .places__title,
@@ -255,14 +278,16 @@
   }
 
   .places__title_natal_city {
-    margin: 50px auto;
+    margin: 50px 16px;
   }
 
   .places__artist {
+    margin: 0 16px 32px;
     height: 67px;
   }
 
   .places__image {
+    margin: 0 auto;
     max-width: 320px;
     height: 320px;
   }
@@ -271,11 +296,13 @@
   .places__content,
   .places__content_wide_marging,
   .places__content_narrow_marging {
+    font-size: 16px;
     line-height: 26px;
-    margin: 10px auto 10px;
+    margin: 0 16px;
   }
 
   .places__buyBtn {
+    margin: 0 auto;
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;

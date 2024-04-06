@@ -21,16 +21,18 @@
 
 .intro__cite {
   max-width: 720px;
-  margin: -26px 0 0 -54px;
   font-size: 24px;
   font-style: normal;
   line-height: 34px;
   text-align: right;
+  position: absolute;
+  top: 1687px;
+  right: 170px;
 }
 
 .intro__paragraph {
   max-width: 720px;
-  margin: 0;
+  margin-top: 42px;
   font-size: 16px;
   line-height: 26px;
 }
