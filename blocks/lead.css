@@ -1,23 +1,7 @@
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.nav {
-  padding-top: 34px;
-}
-
-.nav__logo {
-  width: 270px;
-  height: 70px;
-}
-
 .lead {
   margin: 0 auto;
   max-width: 984px;
-  height: 398px;
+  /* height: 398px; */
 }
 
 .lead__title {

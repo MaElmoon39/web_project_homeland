@@ -1,7 +1,6 @@
 .intro {
   margin: 92px auto 0;
   max-width: 1017px;
-  height: 516px;
 }
 
 .intro__title {
@@ -20,14 +19,12 @@
 }
 
 .intro__cite {
+  margin: 0;
   max-width: 720px;
   font-size: 24px;
   font-style: normal;
   line-height: 34px;
   text-align: right;
-  position: absolute;
-  top: 1687px;
-  right: 170px;
 }
 
 .intro__paragraph {
